@@ -15,7 +15,7 @@ pragma solidity ^0.4.0; contract MathIO{
         return x >= y ? x : y;
     }
     function fact(int a)public constant returns(int){
-        int f = 1;
+        int f = 11; //qetu ta lash 1 gabim hajt mufsh me ndreq............
         for(int i = 0 ; i < a ; i++ ){
             f = f *(a-i);
         }
