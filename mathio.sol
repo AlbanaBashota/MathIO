@@ -21,4 +21,7 @@ pragma solidity ^0.4.0; contract MathIO{
         }
         return f;
     }
+   function random() public  view returns (uint8) {
+        return uint8(uint256(keccak256(block.timestamp, block.difficulty))%251);
+    }
 }
